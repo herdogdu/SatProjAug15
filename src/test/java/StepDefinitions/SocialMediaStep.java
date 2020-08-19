@@ -9,7 +9,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
 
-public class facebookStep {
+public class SocialMediaStep {
     WebDriver driver = BaseDriver.getDriver();
     FacebookPage facebookPage = new FacebookPage();
 

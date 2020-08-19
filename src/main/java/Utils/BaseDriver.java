@@ -1,5 +1,6 @@
 package Utils;
 
+import cucumber.api.java.After;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,4 +18,10 @@ public class BaseDriver {
         return driver;
     }
 
+public static void QuitDriver(){
+        if(driver!=null) {
+            driver.quit();
+            driver=null;
+        }
+}
 }

@@ -39,7 +39,7 @@ public class ParentClass {
     public void waitUntilVisible(WebElement elementToWait) {
         wait.until(ExpectedConditions.visibilityOf(elementToWait));
 
-    }
+     }
 
     public void verifyURLFunction(String urlToCheck) {
 
